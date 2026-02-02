@@ -9,7 +9,7 @@ SELECT
 from sales.Orders
 group by CustomerID
 ),
---step 2: Find the last order date for eachc customer
+--step 2: Find the last order date for eachc customer(multiple cte)
 CTE_last_order as 
 (
 
@@ -20,7 +20,7 @@ from sales.Orders
 group by CustomerID
 
 ) ,
---step 3-- rank customer basedon total salesper customers 
+--step 3-- rank customer basedon total salesper customers (nested cte)
 CTE_customer_rank as 
  (
 
