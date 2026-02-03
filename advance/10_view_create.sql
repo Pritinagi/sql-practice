@@ -21,7 +21,7 @@ from CTE_monthly_summary
 
 --using view 
 
-create view v_monthly_sumamry  as 
+create view sales.v_monthly_sumamry  as 
 (
 SELECT 
 datetrunc(month, orderdate) ordermonth,
