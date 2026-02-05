@@ -11,3 +11,4 @@ from sales.Orders
 group by datetrunc(month, orderdate)
 )
 --select * from sales.v_monthly_sumamry
+--uncomment and run the code to learn it
