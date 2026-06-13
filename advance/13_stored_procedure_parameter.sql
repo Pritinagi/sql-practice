@@ -14,5 +14,5 @@ end
 --execute the stored procedure
 
 EXEC getcustomersummarynew @country = 'USA';
-EXEC getcustomersummarynew @country = 'germany';
+EXEC getcustomersummarynew 
 --drop procedure getcustomersummarynew
