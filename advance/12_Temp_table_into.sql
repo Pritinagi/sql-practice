@@ -6,6 +6,7 @@ from sales.Orders
 where orderstatus ='delivered'
 
 */
+
 /*
 SELECT *
 from #orders
